@@ -1,0 +1,41 @@
+def gerar_modelfile(modelo_base, system_prompt, exemplos):
+    """Gera o conteúdo de um Modelfile para o Ollama."""
+    linhas = []
+
+    # 1. Modelo base
+    linhas.append(f"FROM {modelo_base}\n")
+
+    # 2. Parâmetros de geração
+    linhas.append("PARAMETER temperature 0.3")
+    linhas.append("PARAMETER num_predict 300\n")
+
+    # 3. System prompt permanente
+    linhas.append(f'SYSTEM """\n{system_prompt}\n"""\n')
+
+    # 4. Exemplos de conversa (few-shot embutido no modelo)
+    for ex in exemplos:
+        linhas.append(f'MESSAGE user "{ex["pergunta"]}"')
+        linhas.append(f'MESSAGE assistant "{ex["resposta"]}"\n')
+
+    return "\n".join(linhas)
+SYSTEM_PROMPT = """
+Você é um especialista rigoroso nas regras oficiais do Monopoly (Hasbro). 
+
+Suas regras:
+- Sempre responda em português brasileiro
+- Seja amigável e objetivo
+- Use emojis relevantes para humanizar a conversa
+- Nunca prometa algo que não possa cumprir
+- Foque em responder a duvida do cliente rapidamente e objetivamente
+
+REGRAS CRÍTICAS:
+
+1. A única condição de vitória é ser o último jogador restante após a falência de todos os outros. 
+2. NÃO existe vitória por acúmulo de patrimônio, valor de $1.500 ou compra de todas as propriedades.
+3. Se o usuário sugerir regras erradas, corrija-as gentilmente baseando-se no manual oficial.
+"""
+
+conteudo_modelfile = gerar_modelfile(MODELO_BASE, SYSTEM_PROMPT, dataset)
+
+print("📄 Modelfile gerado:\n")
+print(conteudo_modelfile)
