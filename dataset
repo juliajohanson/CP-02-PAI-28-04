@@ -1,0 +1,85 @@
+# Dataset: Assistente de regras de um jogo
+dataset = [
+    {
+        "pergunta": "No Monopoly quanto devo dar a cada participante no começo do jogo se são 3 pessoas jogando?",
+        "resposta": "Cada jogador recebe $1.500 no início da partida, independentemente do número de participantes, a distribuição deve ser feita de modo que cada jogador receba 2 notas de $500, 2 notas de $100, 2 notas de $50, 6 notas de $20, 5 notas de $10, 5 notas de $5, 5 notas de $1."
+    },
+    {
+        "pergunta": "No jogo monopoly o que acontece se eu parar numa casa livre e não quiser comprar?",
+        "resposta": "Se você cair em uma propriedade sem dono e não quiser comprá-la pelo valor de face, o banco deve colocar essa propriedade em leilão imediatamente. \n Todos os jogadores participam do leilão, inclusive você \n O leilão começa com qualquer valor (inclusive $1) e o jogador que der o maior lance leva a propriedade."
+    },
+    {
+        "pergunta": "No jogo Monopoly, o que acontece se eu parar em uma casa que já é propiedade de outro jogador?",
+        "resposta": "Se você parar em uma propriedade que já é de outro jogador, deve pagar o aluguel ao proprietário, conforme o valor indicado na carta de título da propriedade"
+    },
+    {
+        "pergunta": "Como faço para ganhar o jogo? Monopoly",
+        "resposta": "Para vencer no Monopoly, o objetivo é levar todos os oponentes à falência, priorizando a compra agressiva de propriedades e a formação de monopólios o mais cedo possível."
+    },
+    {
+        "pergunta": "Ganha dinheiro se cair na Parada Livre no Monopoly?",
+        "resposta": "Não. De acordo com as regras oficiais, a Parada Livre é apenas um espaço de descanso. Você não ganha dinheiro, taxas ou bônus ao cair nela. (Colocar dinheiro de multas lá é uma 'regra da casa' comum, mas não oficial)."
+    },
+    {
+        "pergunta": "O que acontece oficialmente quando um jogador cai na casa 'Estacionamento Grátis'?",
+        "resposta": "De acordo com as regras oficiais, o 'Estacionamento Grátis' é apenas um espaço de descanso onde nada acontece. O jogador não recebe dinheiro, taxas ou propriedades ao parar ali."
+    },
+    {
+        "pergunta": "Quanto um jogador recebe do banco ao passar ou cair na casa 'Ponto de Partida'?",
+        "resposta": "O jogador recebe $200 do banco toda vez que seu peão passar ou parar no espaço do 'Ponto de Partida'."
+    },
+    {
+        "pergunta": "Quais são as formas permitidas de sair da Prisão no Monopoly?",
+        "resposta": "Um jogador pode sair da prisão: 1) Tirando dados iguais (dobradinha) em sua jogada; 2) Usando a carta 'Saída Livre da Prisão'; ou 3) Pagando uma multa de $50 ao banco."
+    },
+    {
+        "pergunta": "O que ocorre se um jogador tirar números iguais nos dados (dobradinha) três vezes seguidas no mesmo turno?",
+        "resposta": "Se um jogador tirar três dobradinhas consecutivas, ele deve ir imediatamente para a Prisão, terminando o seu turno sem completar o movimento da terceira jogada."
+    },
+    {
+        "pergunta": "Qual é o requisito para poder começar a comprar hotéis para suas propriedades?",
+        "resposta": "O jogador deve possuir todas as propriedades de um mesmo grupo de cores e ter construído exatamente quatro casas em cada uma delas antes de poder trocá-las por um hotel."
+    },
+    {
+        "pergunta": "O que acontece se o jogador tirar números iguais nos dados (dobradinha)?",
+        "resposta": "O jogador move o seu peão normalmente, executa a ação da casa onde caiu e tem o direito de jogar os dados novamente para um novo movimento no mesmo turno."
+    },
+    {
+        "pergunta": "Como funciona o aluguel de um terreno que faz parte de um grupo de cores completo, mas ainda não possui casas construídas?",
+        "resposta": "Se um jogador possuir todas as propriedades de um grupo de cores, o aluguel cobrado em qualquer um desses terrenos sem construções é dobrado."
+    },
+    {
+        "pergunta": "Qual é o valor do aluguel de uma Ferrovia se o dono possuir as 4 estações do tabuleiro?",
+        "resposta": "O aluguel cobrado quando um jogador cai em qualquer uma das quatro ferrovias pertencentes ao mesmo dono é de $200."
+    },
+    {
+        "pergunta": "É permitido pedir dinheiro emprestado a outro jogador para pagar uma dívida ou comprar propriedades?",
+        "resposta": "Não. De acordo com as regras oficiais, os jogadores só podem pedir empréstimos ao Banco, hipotecando suas propriedades. Empréstimos entre jogadores são proibidos."
+    },
+    {
+        "pergunta": "O que acontece com as casas e hotéis de uma propriedade se o jogador decidir hipotecá-la?",
+        "resposta": "Antes de hipotecar uma propriedade, o jogador deve obrigatoriamente vender todas as casas e hotéis daquele grupo de cores de volta para o Banco pela metade do preço."
+    },
+    {
+        "pergunta": "É possível vencer o Monopoly apenas acumulando uma certa quantia de dinheiro?",
+        "resposta": "Não. Nas regras oficiais, não existe um valor fixo de dinheiro que garanta a vitória; o jogo só termina quando resta apenas um jogador solvente e todos os outros faliram."
+    },
+    {
+        "pergunta": "Um jogador pode ter 4 casas e 1 hotel no mesmo terreno simultaneamente?",
+        "resposta": "Não. Quando um jogador constrói um hotel, ele deve devolver as 4 casas daquela propriedade para o banco. O hotel substitui as casas."
+    },
+    {
+        "pergunta": "O que define a falência de um jogador no Monopoly?",
+        "resposta": "A falência ocorre quando um jogador deve mais do que pode pagar ao banco ou a outro jogador, mesmo após vender suas casas/hotéis e hipotecar todas as suas propriedades."
+    },
+    {
+        "pergunta": "Se o tempo de jogo for limitado (regra de tempo), como se define o vencedor?",
+        "resposta": "Nesse caso específico, cada jogador soma seu dinheiro, o valor de face de suas propriedades, o valor de propriedades hipotecadas e o preço de custo de suas casas/hotéis. Quem tiver o maior patrimônio total vence."
+    },
+    {
+        "pergunta": "Ter o monopólio de uma cor (todas as propriedades do grupo) é obrigatório para vencer?",
+        "resposta": "Não é uma regra de vitória, mas é uma estratégia essencial, pois somente com o grupo completo é permitido construir casas e hotéis para cobrar aluguéis mais altos."
+    }
+]
+
+print(f"✅ Dataset criado com {len(dataset)} exemplos")
