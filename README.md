@@ -35,3 +35,4 @@ A execução deste projeto permitiu consolidar a percepção de que a eficácia 
 
 
 Julia Johanson:  
+A execução deste projeto consolidou a percepção de que a eficácia de uma IA depende diretamente da qualidade da instrução e do contexto fornecidos, evidenciando que o controle técnico sobre o ambiente de execução é o que diferencia respostas genéricas de assistentes especializados. Ao integrar o dataset de regras do Monopoly ao Modelfile, compreendi na prática como o refinamento de parâmetros e a padronização dos presets do sistema reduzem a margem de erro, garantindo estabilidade operacional e consistência na personalidade da ferramenta. Essa experiência demonstrou que a especialização de um modelo exige uma estruturação rigorosa, transformando a IA em um suporte dinâmico capaz de entregar respostas personalizadas e alinhadas aos requisitos técnicos e funcionais desejados.
