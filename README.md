@@ -31,5 +31,7 @@ Durante o desenvolvimento do projeto, compreendi como a estruturação de um Mod
   
   
 Lucas Bomfim:  
+A execução deste projeto permitiu consolidar a percepção de que a eficácia de uma IA está diretamente ligada à qualidade da instrução e do contexto que a alimentam, além da forma em que a pergunta em si é estruturada. Ao trabalhar na construção do Modelfile, se tornou evidente que a especialização de um modelo exige uma criação de parâmetros que direcionem o comportamento da máquina para uma entrega que esteja ligada com o requisitado. Foi possível observar na prática como o refinamento do Dataset reduz a margem de erro e como a padronização dos presets do sistema se mostra como fundamental para garantir uma estabilidade operacional com consistência. Esse projeto demonstrou que o controle técnico sobre o ambiente de execução é o que acaba separando uma resposta genérica de uma personalizada e única em si.
+
 
 Julia Johanson:  
